@@ -71,4 +71,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
 # Vehicle-Management-using-Blockchain
+
+Developed an VMS using blockchain that driven 
+by Solidity and seven specialized smart contracts, has ushered in a new era of asset management. The 
+system seamlessly integrates blockchain technology with a user-friendly web application and robust 
+user authentication, effectively addressing the vulnerabilities of traditional centralized systems.
+
 >>>>>>> origin/main
