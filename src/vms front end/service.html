@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="">
+
+  <title> VMS </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="images/hero-bg.png" alt="">
+      </div>
+    </div>
+
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Block Motive
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="service.html">Services <span class="sr-only">(current)</span> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="why.html">Why Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
+              </li>
+              <form class="form-inline">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Our <span>Services</span>
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box">
+                <div class="img-box">
+                    <img src="images/vehicle contract.png" alt="">
+                </div>
+                <div class="detail-box">
+                    <h5>Vehicle Contracts</h5>
+                    <div id="vehicle-content">
+                        <p>
+                            Vehicle smart contracts are blockchain-based contracts that automate and secure various aspects of vehicle-related transactions and 
+                        </p>
+                        <p id="extra-vehicle-content" style="display: none;">
+                          processes. When a new vehicle is added to the system, a smart contract can record the vehicle's details, including its VIN (Vehicle Identification Number), make, model, and owner's information on the blockchain.
+                        </p>
+                    </div>
+                    <a href="#" id="read-more-vehicle" onclick="toggleVehicleContent()">Read More</a>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            function toggleVehicleContent() {
+                var extraVehicleContent = document.getElementById("extra-vehicle-content");
+                var link = document.getElementById("read-more-vehicle");
+        
+                if (extraVehicleContent.style.display === "none" || extraVehicleContent.style.display === "") {
+                    extraVehicleContent.style.display = "block";
+                    link.textContent = "Show Less";
+                } else {
+                    extraVehicleContent.style.display = "none";
+                    link.textContent = "Read More";
+                }
+            }
+        </script>
+        
+          <div class="col-md-4">
+            <div class="box">
+                <div class="img-box">
+                    <img src="images/user contract.png" alt="">
+                </div>
+                <div class="detail-box">
+                    <h5>User Contracts</h5>
+                    <div id="user-content">
+                        <p>
+                            Client smart contracts in a vehicle management system refer to blockchain-based contracts designed to facilitate and automate various interactions and 
+                        <p id="extra-user-content" style="display: none;"> transactions between vehicle owners or users (the clients) and the vehicle management system.
+                        </p>
+                        </p>
+                    </div>
+                    <a href="#" id="user-read-more-link" onclick="toggleUserContent()">Read More</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            function toggleUserContent() {
+                var userExtraContent = document.getElementById("extra-user-content");
+                var userLink = document.getElementById("read-more-user");
+        
+                if (userExtraContent.style.display === "none" || userExtraContent.style.display === "") {
+                    userExtraContent.style.display = "block";
+                    userLink.textContent = "Show Less";
+                } else {
+                    userExtraContent.style.display = "none";
+                    userLink.textContent = "Read More";
+                }
+            }
+        </script>
+        <div class="col-md-4">
+          <div class="box">
+              <div class="img-box">
+                  <img src="images/car-insurance.png" alt="">
+              </div>
+              <div class="detail-box">
+                  <h5>Insurance Verifications</h5>
+                  <div id="insurance-content">
+                      <p>
+                          An insurance verification smart contract in a vehicle management system is a blockchain-based contract designed to automate the process of verifying insurance 
+                      </p>
+                      <p id="extra-insurance-content" style="display: none;">
+                          coverage for vehicles within the system. This smart contract plays a crucial role in ensuring that vehicles are adequately insured before they are driven or rented, enhancing safety and compliance.
+                      </p>
+                  </div>
+                  <a href="#" id="read-more-insurance" onclick="toggleInsuranceContent()">Read More</a>
+              </div>
+          </div>
+      </div>
+      <script>
+          function toggleInsuranceContent() {
+              var extraInsuranceContent = document.getElementById("extra-insurance-content");
+              var link = document.getElementById("read-more-insurance");
+      
+              if (extraInsuranceContent.style.display === "none" || extraInsuranceContent.style.display === "") {
+                  extraInsuranceContent.style.display = "block";
+                  link.textContent = "Show Less";
+              } else {
+                  extraInsuranceContent.style.display = "none";
+                  link.textContent = "Read More";
+              }
+          }
+      </script>
+      
+      <div class="col-md-4">
+        <div class="box">
+            <div class="img-box">
+                <img src="images/maintainance.png" alt="">
+            </div>
+            <div class="detail-box">
+                <h5>Maintenance Records</h5>
+                <div id="maintenance-content">
+                    <p>
+                        Maintenance records in a smart contract can be implemented to keep a transparent and tamper-proof record of maintenance activities for vehicles. These records can be beneficial for fleet management,
+                    </p>
+                    <p id="extra-maintenance-content" style="display: none;">
+                        vehicle ownership, and various other automotive applications. The smart contract can store vehicle information, including the Vehicle Identification Number (VIN), make, model, owner's information, and other relevant details.
+                    </p>
+                </div>
+                <a href="#" id="read-more-maintenance" onclick="toggleMaintenanceContent()">Read More</a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function toggleMaintenanceContent() {
+            var extraMaintenanceContent = document.getElementById("extra-maintenance-content");
+            var link = document.getElementById("read-more-maintenance");
+    
+            if (extraMaintenanceContent.style.display === "none" || extraMaintenanceContent.style.display === "") {
+                extraMaintenanceContent.style.display = "block";
+                link.textContent = "Show Less";
+            } else {
+                extraMaintenanceContent.style.display = "none";
+                link.textContent = "Read More";
+            }
+        }
+    </script>
+ <div class="col-md-4">
+  <div class="box">
+      <div class="img-box">
+          <img src="images/accident.png" alt="">
+      </div>
+      <div class="detail-box">
+          <h5>Accident Records</h5>
+          <div id="accident-content">
+              <p>
+                  Accident record smart contracts in a vehicle management system can help maintain transparent and tamper-proof records of accidents involving vehicles. These records are valuable for insurance claims,
+              </p>
+              <p id="extra-accident-content" style="display: none;">
+                  legal purposes, and overall safety management. The smart contract stores vehicle information, including the Vehicle Identification Number (VIN), make, model, owner's information, and other relevant details.
+              </p>
+          </div>
+          <a href="#" id="read-more-accident" onclick="toggleAccidentContent()">Read More</a>
+      </div>
+  </div>
+</div>
+
+<script>
+  function toggleAccidentContent() {
+      var extraAccidentContent = document.getElementById("extra-accident-content");
+      var link = document.getElementById("read-more-accident");
+
+      if (extraAccidentContent.style.display === "none" || extraAccidentContent.style.display === "") {
+          extraAccidentContent.style.display = "block";
+          link.textContent = "Show Less";
+      } else {
+          extraAccidentContent.style.display = "none";
+          link.textContent = "Read More";
+      }
+  }
+</script>
+
+<div class="col-md-4">
+  <div class="box">
+      <div class="img-box">
+          <img src="images/theft.png" alt="">
+      </div>
+      <div class="detail-box">
+          <h5>Theft Records</h5>
+          <div id="theft-content">
+              <p>
+                Theft record smart contracts in a vehicle management system can help maintain secure and tamper-proof records of stolen or recovered vehicles. These smart contracts are valuable tools for law enforcement agencies,
+              </p>
+              <p id="extra-theft-content" style="display: none;">
+                insurance companies, and vehicle owners to track and report theft incidents.These contracts can also store the theft status of a vehicle, indicating whether it has been recovered or is still missing. Authorized parties can update this status when new information becomes available.
+              </p>
+          </div>
+          <a href="#" id="read-more-theft" onclick="toggleTheftContent()">Read More</a>
+      </div>
+  </div>
+</div>
+
+<script>
+  function toggleTheftContent() {
+      var extraTheftContent = document.getElementById("extra-theft-content");
+      var link = document.getElementById("read-more-theft");
+
+      if (extraTheftContent.style.display === "none" || extraTheftContent.style.display === "") {
+          extraTheftContent.style.display = "block";
+          link.textContent = "Show Less";
+      } else {
+          extraTheftContent.style.display = "none";
+          link.textContent = "Read More";
+      }
+  }
+</script>
+
+<center>
+  <div class="col-md-4">
+    <div class="box">
+        <div class="img-box">
+            <img src="images/ownership transfer.png" alt="">
+        </div>
+        <div class="detail-box">
+            <h5>ownership transfer</h5>
+            <div id="ownership-content">
+                <p>
+                  An ownership transfer smart contract in a vehicle management system is a blockchain-based contract designed to automate and secure the process of transferring ownership of vehicles from one party to another. 
+                </p>
+                <p id="extra-content-ownership" style="display: none;">
+                  This type of smart contract can be particularly valuable in scenarios such as buying or selling vehicles, leasing, or transferring ownership within a fleet management system.
+                </p>
+            </div>
+            <a href="#" id="read-more-link-ownership" onclick="toggleContent()">Read More</a>
+        </div>
+    </div>
+  </div>
+</center>
+<script>
+  function toggleContent() {
+      var extraContent = document.getElementById("extra-content-ownership");
+      var link = document.getElementById("read-more-link-ownership");
+
+      if (extraContent.style.display === "none" || extraContent.style.display === "") {
+          extraContent.style.display = "block";
+          link.textContent = "Show Less";
+      } else {
+          extraContent.style.display = "none";
+          link.textContent = "Read More";
+      }
+  }
+</script>
+
+  </section>
+
+  <!-- end service section -->
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_contact">
+            <h4>
+              Address
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +01 1234567890
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  demo@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="info_social">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_detail">
+            <h4>
+              Info
+            </h4>
+            <p>
+              A Vehicle Management System (VMS) using blockchain technology is a software application designed to enhance the efficiency, security, and transparency of managing vehicles and related data. Blockchain, as a decentralized and immutable ledger, offers several advantages for this purpose
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2 mx-auto info_col">
+          <div class="info_link_box">
+            <h4>
+              Links
+            </h4>
+            <div class="info_links">
+              <a class="active" href="index.html">
+                Home
+              </a>
+              <a class="" href="about.html">
+                About
+              </a>
+              <a class="" href="service.html">
+                Services
+              </a>
+              <a class="" href="why.html">
+                Why Us
+              </a>
+              <a class="" href="team.html">
+                Team
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col ">
+          <h4>
+            Subscribe
+          </h4>
+          <form action="#">
+            <input type="text" placeholder="Enter email" />
+            <button type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        Block Motive</a>
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>

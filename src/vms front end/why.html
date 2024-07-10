@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="">
+
+  <title> VMS </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="images/hero-bg.png" alt="">
+      </div>
+    </div>
+
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Block Motive
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Services</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="why.html">Why Us <span class="sr-only">(current)</span> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
+              </li>
+              <form class="form-inline">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- why section -->
+
+  <section class="why_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Why Choose <span>Us</span>
+        </h2>
+      </div>
+      <div class="why_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/decentralized.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Decentralization
+            </h5>
+            <p class="limited-text">
+              Decentralization is a fundamental concept across various domains, signifying the distribution of control, decision-making, and data among numerous nodes, individuals, or entities rather than centralizing power in a single authority or location.
+            </p>
+            <p class="full-text" style="display: none;">
+              This decentralized approach brings multiple benefits, including increased resilience, as it allows systems to continue functioning even when individual nodes fail; enhanced security, by reducing the vulnerability of a single point of failure or attack; greater transparency through independent verification of transactions and data; resistance to censorship, as it thwarts single-entity control; user empowerment, granting individuals more control over their data and assets; and fostering innovation by enabling open participation. However, it does pose challenges like scalability and governance. Striking a balance between decentralization and practicality is a crucial consideration in designing and implementing decentralized systems, which have far-reaching implications in technology, finance, governance, and more.
+            </p>
+            <a href="#" class="read-more1">Read More</a>
+          </div>
+        </div>
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+            const readMoreButton = document.querySelector(".read-more1");
+            const hiddenText = document.querySelector(".full-text");
+        
+            let isHidden = true;
+        
+            readMoreButton.addEventListener("click", function(e) {
+              e.preventDefault();
+        
+              if (isHidden) {
+                hiddenText.style.display = "block";
+                readMoreButton.textContent = "Read Less";
+              } else {
+                hiddenText.style.display = "none";
+                readMoreButton.textContent = "Read More";
+              }
+        
+              isHidden = !isHidden;
+            });
+          });
+        </script>
+              
+      <div class="box">
+        <div class="img-box">
+          <img src="images/imutability.png" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            Immutability
+          </h5>
+          <p>
+            Immutability is a fundamental characteristic of blockchain technology, ensuring that once data or transactions are recorded and confirmed on the blockchain, they become unchangeable, undeletable, and tamper-proof. 
+          </p>
+          <p class="hidden-text" style="display: none;">
+            This immutability is achieved through cryptographic techniques, consensus mechanisms, and the chaining of blocks. It means that data integrity is maintained, as altering information within a block would require the consensus of a majority of network participants and complex cryptographic computations. Immutability provides a high level of security and transparency, making blockchain a preferred choice for applications where data integrity and tamper resistance are paramount, such as financial transactions and supply chain management. While immutability is a strength, it can pose challenges in cases of errors or disputes, as changes typically require network-wide consensus.
+          </p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          const readMoreButton = document.querySelector(".read-more");
+          const hiddenText = document.querySelector(".hidden-text");
+      
+          let isHidden = true;
+      
+          readMoreButton.addEventListener("click", function(e) {
+            e.preventDefault();
+      
+            if (isHidden) {
+              hiddenText.style.display = "block";
+              readMoreButton.textContent = "Read Less";
+            } else {
+              hiddenText.style.display = "none";
+              readMoreButton.textContent = "Read More";
+            }
+      
+            isHidden = !isHidden;
+          });
+        });
+      </script>
+      
+      <div class="box">
+        <div class="img-box">
+          <img src="images/transparency.png" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+            Transparency
+          </h5>
+          <p>
+            Transparency is a fundamental characteristic of blockchain technology, underpinning its trustworthiness and accountability. Blockchains operate on public ledgers that record all transactions across a network of decentralized nodes. 
+          </p>
+          <p class="hidden-text1" style="display: none;">
+            These records, organized into blocks, are immutable, making it extremely difficult to alter or erase historical data. Decentralization is a key element, as no single entity has control over the blockchain, reducing the risk of manipulation or censorship. Consensus mechanisms ensure that only valid transactions are added, enhancing both security and transparency. Public addresses in blockchain systems provide pseudonymous identities for participants, while smart contracts execute transparently, with code and rules visible on the blockchain. Furthermore, open-source development allows anyone to scrutinize and contribute to the technology. Despite this transparency, participant identities often remain pseudonymous, and privacy-focused solutions are emerging to balance transparency with confidentiality.
+          </p>
+          <a href="#" class="read-more2">Read More</a>
+        </div>
+      </div>
+      
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          const readMoreButton = document.querySelector(".read-more2");
+          const hiddenText = document.querySelector(".hidden-text1");
+      
+          let isHidden = true;
+      
+          readMoreButton.addEventListener("click", function(e) {
+            e.preventDefault();
+      
+            if (isHidden) {
+              hiddenText.style.display = "block";
+              readMoreButton.textContent = "Read Less";
+            } else {
+              hiddenText.style.display = "none";
+              readMoreButton.textContent = "Read More";
+            }
+      
+            isHidden = !isHidden;
+          });
+        });
+      </script>
+          <div class="box">
+            <div class="img-box">
+              <img src="images/security.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Security
+              </h5>
+              <p>
+                Security is a paramount aspect of blockchain technology, essential for maintaining the integrity and trustworthiness of the decentralized system. Blockchain achieves security through several key mechanisms. 
+              </p>
+              <p class="hidden-text3" style="display: none;">
+                First, its decentralized nature means that there is no single point of control, reducing the risk of hacking or manipulation by a single entity. Additionally, blockchain relies on cryptographic techniques to secure data and transactions. Each block in the chain is linked to the previous one through a cryptographic hash, creating a tamper-resistant chain of blocks. Moreover, consensus mechanisms like Proof of Work (PoW) and Proof of Stake (PoS) ensure that transactions are validated by network participants, preventing fraudulent entries. The immutability of recorded transactions makes it exceedingly difficult to alter historical data. Furthermore, public and private key pairs provide secure access to blockchain accounts, enhancing user authentication and authorization. While blockchain technology offers robust security, it is not immune to all risks, such as smart contract vulnerabilities or 51% attacks on PoW blockchains. Continuous development and proactive security measures are crucial to maintaining the security of blockchain networks.
+              </p>
+              <a href="#" class="read-more3">Read More</a>
+            </div>
+          </div>
+          
+          <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              const readMoreButton = document.querySelector(".read-more3");
+              const hiddenText = document.querySelector(".hidden-text3");
+          
+              let isHidden = true;
+          
+              readMoreButton.addEventListener("click", function(e) {
+                e.preventDefault();
+          
+                if (isHidden) {
+                  hiddenText.style.display = "block";
+                  readMoreButton.textContent = "Read Less";
+                } else {
+                  hiddenText.style.display = "none";
+                  readMoreButton.textContent = "Read More";
+                }
+          
+                isHidden = !isHidden;
+              });
+            });
+          </script>
+  </section>
+
+  <!-- end why section -->
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_contact">
+            <h4>
+              Address
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +01 1234567890
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  demo@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="info_social">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_detail">
+            <h4>
+              Info
+            </h4>
+            <p>
+              A Vehicle Management System (VMS) using blockchain technology is a software application designed to enhance the efficiency, security, and transparency of managing vehicles and related data. Blockchain, as a decentralized and immutable ledger, offers several advantages for this purpose
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2 mx-auto info_col">
+          <div class="info_link_box">
+            <h4>
+              Links
+            </h4>
+            <div class="info_links">
+              <a class="active" href="index.html">
+                Home
+              </a>
+              <a class="" href="about.html">
+                About
+              </a>
+              <a class="" href="service.html">
+                Services
+              </a>
+              <a class="" href="why.html">
+                Why Us
+              </a>
+              <a class="" href="team.html">
+                Team
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col ">
+          <h4>
+            Subscribe
+          </h4>
+          <form action="#">
+            <input type="text" placeholder="Enter email" />
+            <button type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        Block Motive</a>
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
